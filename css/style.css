@@ -48,7 +48,9 @@ body {
 }
 
 .hero-container {
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-content: center;
     background: url('https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?cs=srgb&dl=pexels-luis-gomes-546819.jpg&fm=jpg') center center no-repeat;
     background-size: cover;
     height: 80vh;
@@ -158,9 +160,9 @@ a:hover, a:active {
 .hero-content .btn, .hero-content .btn:visited  {
     width: 100%;
     max-width: 260px;
-    background: #f08527;
+    background: #74b44a;
     color: #1b1b27;
-    border: 2px solid #f08527;
+    border: 2px solid #74b44a;
     border-radius: 12px;
     padding: 12px 24px;
     font-family: 'Roboto Condensed', sans-serif;
